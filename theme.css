@@ -1,0 +1,394 @@
+/* ALL */
+* {
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.content {
+  height: 100%;
+  margin: 180px auto 45px auto;
+  font-size: 17px;
+  color: rgb(51, 51, 51);
+  line-height: 1.7;
+  min-height: calc(100vh - 290px);
+  width: 80%;
+  max-width: 1536px;
+}
+
+.content a {
+  color: rgb(133, 47, 173);
+}
+
+/* .content h1 {text-align: center; font-size: 23px; color: rgb(105, 0, 153); margin: 30px auto; border-bottom: 1px solid #ddd; width: max-content; padding: 0 20px 15px 20px; } */
+.content h1, h2 {
+  text-align: center;
+  font-size: 23px;
+  color: rgb(86, 0, 126);
+  margin: 30px 0;
+}
+
+.content h3 {
+  font-weight: bold;
+}
+
+/*padding-left: 15px; }*/
+
+#quote {
+  background-color: rgb(250, 238, 255);
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.8;
+  padding: 10px 15px;
+  width: fit-content;
+  border-left: 7px solid rgb(102, 102, 102);
+}
+
+
+/* PREPODS */
+/* .prepods {text-align: center; padding-bottom: 30px; margin-left: auto; margin-right: auto;  }
+.prepods td { width: 350px; padding: 20px 30px; }
+.prepods td > p { color: rgb(121, 121, 121); text-transform: uppercase; font-size: 14px; font-weight: 600; }
+.prepods img { width: 130px; height: 130px; object-fit: cover; object-position: top; border-radius: 10%; border: 6px solid rgb(240, 240, 240); box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3); }
+.prepods a { font-weight: bold; color: rgb(71, 71, 71); font-size: 18px; } */
+
+
+/* PREPODS 1 */
+.prepods1 table {
+  text-align: center;
+  margin: 30px auto 20px auto;
+  border-collapse: collapse;
+}
+
+.prepods1 tr {
+  box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.04);
+}
+
+.prepods1 tr td:nth-child(1) {
+  width: 220px;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.prepods1 tr td:nth-child(2) {
+  border-top: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding-right: 30px !important;
+}
+
+.prepods1 td {
+  width: 350px;
+  padding: 27px 10px 20px 10px;
+}
+
+.prepods1 td p:nth-child(2) {
+  color: rgb(121, 121, 121);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.prepods1 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10%;
+  /*border: 6px solid rgb(240, 240, 240); box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);*/
+}
+
+.prepods1 a, .prepods1 td p:nth-child(1) {
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+  font-size: 18px;
+}
+
+#petr {
+  object-position: 50%;
+}
+
+
+/* COURSES SEMINAR PUBLICATIONS CONTACTS*/
+.courses ul {
+  margin: auto auto 45px auto;
+  font-size: 19px;
+  list-style-position: outside;
+  width: max-content;
+}
+
+.courses h1 {
+  text-align: center;
+}
+
+#seminar {
+  text-align: center;
+}
+
+#seminar h2 {
+  margin-bottom: 0;
+}
+
+#seminar p:nth-child(2) {
+  margin: 0 auto 30px auto;
+  text-transform: uppercase;
+}
+
+#seminar p:nth-child(3) {
+  text-align: left;
+  margin: auto;
+  width: max-content;
+}
+
+.publics ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contacts {
+  text-align: center;
+  font-size: 19px;
+}
+
+.contacts h1 {
+  margin-bottom: 20px;
+}
+
+.contacts ul {
+  list-style: none;
+  width: 500px;
+  text-align: left;
+  margin: auto;
+}
+
+.contacts iframe {
+  margin: 20px;
+  width: 70%;
+  height: 500px;
+}
+
+
+/* PROFESSOR */
+.prof h3 {
+  margin: 15px 0 5px 0;
+}
+
+.prof p {
+  margin: 2px 0;
+}
+
+.prof ol {
+  padding-left: 20px;
+  margin: 0;
+}
+
+#prof_img {
+  float: left;
+  height: 342px;
+  margin: 11px 35px 20px 0;
+  vertical-align: middle;
+}
+
+#info {
+  height: 360px;
+}
+
+#info h3 {
+  margin: 10px 0 0 0;
+}
+
+#info p:nth-child(2) {
+  margin-bottom: 10px;
+}
+
+#info>h1 {
+  text-align: left;
+  margin: 0;
+}
+
+#info img, #publ {
+  width: 25px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+
+/* RESEARCH */
+#res_bar {
+  border: 2px solid #ddd;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 7px;
+  margin-bottom: 40px;
+}
+
+#res_bar a {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: rgb(86, 0, 126);
+  font-size: 21px;
+}
+
+
+/* HEADER */
+#header_kaf {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100px;
+  background-image: url(pictures/1349487-banniere-abstraite-poly-basse-violette-gratuit-vectoriel1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.4s ease;
+}
+
+#meh_knu {
+  transition: all 0.4s ease;
+  font-size: 0.7vw;
+  position: absolute;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 3000px) {
+  #meh_knu {
+    width: calc(100% / 6.5);
+  }
+}
+
+@media screen and (min-width: 3001px) {
+  #meh_knu {
+    width: max-content;
+  }
+}
+
+#meh_knu img {
+  height: 39px;
+}
+
+#meh_knu td {
+  padding: 1px 5px;
+}
+
+#meh_knu a {
+  color: rgb(209, 202, 221);
+}
+
+#name {
+  width: fit-content;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  transition: all 0.4s ease;
+  margin: 30px auto;
+}
+
+#name a {
+  color: #fff;
+}
+
+
+#header_list {
+  width: 100%;
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  height: 50px;
+  background-image: url(pictures/6153aef7528121.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.4s ease;
+}
+
+#kaf_logo {
+  height: 46px;
+  position: absolute;
+  margin: 2px 2px 2px 10px;
+  transition: all 0.4s ease;
+  opacity: 0;
+}
+
+#navbar {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+#navbar tr {
+  height: 50px;
+}
+
+/* #navbar td { border: 2px solid #eee; }
+#navbar tr td:nth-child(1) { border-left: 0; } */
+
+#navbar a {
+  color: rgb(105, 0, 153);
+  margin: 0px 10px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+#navbar a:hover {
+  transition: all 0.4s ease;
+  color: #fff;
+}
+
+
+#lang {
+  width: 25px;
+  position: absolute;
+  transition: all 0.4s ease;
+  margin: 10px 5px 0px 0px;
+  right: 6px;
+}
+
+#lang img {
+  width: 25px;
+  margin: 7px 0px;
+}
+
+#menu {
+  display: none;
+}
+
+/* header:hover { padding: 0px 0px 0px 0px; height: 140px; transition: all 0.4s; } */
+/* header:hover .name {transition: all 0.4s ease; margin: 45px;} */
+
+
+/* FOOTER */
+footer {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  background-image: url(pictures/1349487-banniere-abstraite-poly-basse-violette-gratuit-vectoriel11.jpg);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer div {
+  padding: 20px 0px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+footer p {
+  padding: 0px;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 2px;
+}
