@@ -68,7 +68,7 @@ body {
 }
 
 .prepods1 tr {
-  box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.04);
+  box-shadow: 3px 0 5px 0 rgba(0, 0, 0, 0.04);
 }
 
 .prepods1 tr td:nth-child(1) {
@@ -243,10 +243,10 @@ body {
 #header_kaf {
   width: 100%;
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   height: 100px;
-  background-image: url(pictures/1349487-banniere-abstraite-poly-basse-violette-gratuit-vectoriel1.jpg);
+  background-image: url(../assets/images/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 0.4s ease;
@@ -297,14 +297,13 @@ body {
   color: #fff;
 }
 
-
 #header_list {
   width: 100%;
   position: fixed;
   top: 100px;
-  left: 0px;
+  left: 0;
   height: 50px;
-  background-image: url(pictures/6153aef7528121.jpg);
+  background-image: url(../assets/images/banner-light.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 0.4s ease;
@@ -333,7 +332,7 @@ body {
 
 #navbar a {
   color: rgb(105, 0, 153);
-  margin: 0px 10px;
+  margin: 0 10px;
   font-size: 18px;
   transition: all 0.3s ease;
 }
@@ -348,13 +347,13 @@ body {
   width: 25px;
   position: absolute;
   transition: all 0.4s ease;
-  margin: 10px 5px 0px 0px;
+  margin: 10px 5px 0 0;
   right: 6px;
 }
 
 #lang img {
   width: 25px;
-  margin: 7px 0px;
+  margin: 7px 0;
 }
 
 #menu {
@@ -370,10 +369,9 @@ footer {
   overflow: hidden;
   width: 100%;
   text-align: center;
-  background-image: url(pictures/1349487-banniere-abstraite-poly-basse-violette-gratuit-vectoriel11.jpg);
+  background-image: url(../assets/images/banner-blur.jpg);
   left: 0;
   bottom: 0;
-  width: 100%;
   height: 65px;
   margin: 0;
   background-repeat: no-repeat;
@@ -381,13 +379,13 @@ footer {
 }
 
 footer div {
-  padding: 20px 0px;
+  padding: 20px 0;
   max-width: 1100px;
   margin: auto;
 }
 
 footer p {
-  padding: 0px;
+  padding: 0;
   font-size: 20px;
   color: #fff;
   margin-top: 2px;
