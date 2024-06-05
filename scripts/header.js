@@ -1,14 +1,14 @@
 // $(document).ready(function () {
 // });
 
-$('#content').load('../uk/pages/history.html');
+$('#content').load('../uk/pages/professors.html');
 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (window.matchMedia("(min-width: 480px)").matches) {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-      $("#header_kaf").style.height = "0";
+      $("#header_kaf").height(0);
       document.getElementById("header_list").style = "top: 0;"
       document.getElementById("name").style = "margin-top: 0; opacity: 0;";
       document.getElementById("meh").style = "opacity: 0; transition: all 0.2s ease;";
