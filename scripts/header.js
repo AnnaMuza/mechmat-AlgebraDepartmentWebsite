@@ -1,7 +1,22 @@
-// $(document).ready(function () {
-// });
+$(document).ready(function () {
+  changeTab();
+  addEventListener("hashchange", function () {
+    changeTab();
+  });
+});
 
-$('#content').load('../uk/pages/professors.html');
+function redirectToHome() {
+  window.location.hash = '#professors';
+}
+
+function changeTab() {
+  const url = window.location;
+  const hash = url.hash;
+  const lang = url.href.match(/\/(uk|en)\//)?.[1];
+  if (!lang || !hash) redirectToHome();
+  $(`a[href="${hash}"]`).css('color', '#fff');
+  $('#content').load(`../${lang}/pages/${hash.slice(1)}.html`);
+}
 
 window.onscroll = function() {scrollFunction()};
 
