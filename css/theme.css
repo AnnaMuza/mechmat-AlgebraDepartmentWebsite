@@ -112,8 +112,8 @@ body {
   font-size: 18px;
 }
 
-#petr {
-  object-position: 50%;
+.petr {
+  object-position: 50% !important;
 }
 
 
