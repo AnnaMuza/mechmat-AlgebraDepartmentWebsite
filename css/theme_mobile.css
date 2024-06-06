@@ -249,7 +249,7 @@ body {
     top: 0px;
     left: 0px;
     height: 80px;
-    background-image: url(pictures/1349487-banniere-abstraite-poly-basse-violette-gratuit-vectoriel1.jpg);
+    background-image: url(../assets/images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -309,7 +309,7 @@ body {
     left: 0px;
     height: 280px;
     z-index: 0;
-    background-image: url(pictures/menu.png);
+    background-image: url(../assets/images/menu.png);
     background-repeat: no-repeat;
     background-size: cover;
     transition: all 0.4s ease;
@@ -408,7 +408,7 @@ footer {
     overflow: hidden;
     width: 100%;
     text-align: center;
-    background-image: url(pictures/1349487-banniere-abstraite-poly-basse-violette-gratuit-vectoriel11.jpg);
+    background-image: url(../assets/images/banner-blur.jpg);
     left: 0;
     bottom: 0;
     width: 100%;

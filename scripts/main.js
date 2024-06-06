@@ -16,11 +16,15 @@ function changeLang(lang) {
   window.location.href = window.location.href.replace(LANG_REGEX, `/${lang}/`);
 }
 
+function goToAnchor(anchor) {
+
+}
+
 function changeTab() {
   const url = window.location;
-  const hash = url.hash;
   const lang = url.href.match(LANG_REGEX)?.[1];
-  if (!lang || !hash) redirectToHome();
+  if (!lang || !url.hash) redirectToHome();
+  const [hash, anchor] = url.hash.split('/');
   const altLang = lang === 'en' ? 'uk' : 'en';
   const langButton = $(`#lang_${altLang}`);
   langButton.click(function() {changeLang(altLang)});
